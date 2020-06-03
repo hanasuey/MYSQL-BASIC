@@ -76,7 +76,8 @@ David Neres
 D. Johnsen 	
 
 
--- Opdracht 6 
+-- Opdracht 6
+
 
 -- Opdracht 7 
 
@@ -91,6 +92,37 @@ D. Johnsen
 -- Opdracht 12
 
 -- Opdracht 13
+
+SELECT * FROM players WHERE club = "Ajax" AND nationality = "Netherlands" OR club = "FC Utrecht" AND nationality = "Netherlands"
+
+
+id	name	age	nationality	club	value	wage	
+148803	K. Huntelaar 	33	Netherlands 	Ajax 	55000000	17000	
+156655	E. Braafheid 	34	Netherlands 	FC Utrecht 	675000	8000	
+158800	W. Janssen 	30	Netherlands 	FC Utrecht 	3000000	12000	
+169808	U. Emanuelson 	31	Netherlands 	FC Utrecht 	48000000	13000	
+172850	R. Leeuwin 	29	Netherlands 	FC Utrecht 	18000000	9000	
+186452	S. de Jong 	28	Netherlands 	Ajax 	75000000	16000	
+193440	N. Viergever 	27	Netherlands 	Ajax 	65000000	14000	
+198147	M. van der Maarel 	27	Netherlands 	FC Utrecht 	1000000	7000	
+200698	N. Marsman 	26	Netherlands 	FC Utrecht 	875000	6000	
+204367	B. van Leer 	25	Netherlands 	Ajax 	7000000	11000	
+204370	S. van de Streek 	24	Netherlands 	FC Utrecht 	23000000	8000	
+208004	J. Veltman 	25	Netherlands 	Ajax 	85000000	13000	
+208459	M. Dijks 	24	Netherlands 	Ajax 	55000000	10000	
+209696	C. David 	24	Netherlands 	FC Utrecht 	500000	2000	
+216380	D. Sinkgraven 	21	Netherlands 	Ajax 	75000000	9000	
+219814	S. Klaiber 	22	Netherlands 	FC Utrecht 	26000000	7000	
+221283	A. Nouri 	20	Netherlands 	Ajax 	75000000	10000	
+221363	D. van de Beek 	20	Netherlands 	Ajax 	115000000	12000	
+223811	N. Alblas 	22	Netherlands 	Ajax 	675000	2000	
+224217	R. van der Meer 	22	Netherlands 	FC Utrecht 	850000	6000	
+225653	G. Kerk 	21	Netherlands 	FC Utrecht 	25000000	8000	
+228568	P. Joosten 	21	Netherlands 	FC Utrecht 	11000000	7000	
+228702	F. de Jong 	20	Netherlands 	Ajax 	5000000	7000	
+228762	G. Troup e 	19	Netherlands 	FC Utrecht 	32000000	4000	
+234198	D. Dankerlui 	20	Netherlands 	Ajax 	500000	2000	
+
 
 -- Opdracht 14
 
