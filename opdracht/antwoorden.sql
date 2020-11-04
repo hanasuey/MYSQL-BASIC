@@ -168,7 +168,6 @@ Rad Racer 	1986
 
 -- Opdracht 10
 
-127.0.0.1/janee/videogamesales/		http://localhost/phpmyadmin/tbl_sql.php?db=janee&table=videogamesales
  Showing rows 0 -  0 (1 total, Query took 0.0023 seconds.)
 
 SELECT AVG(NA_Sales) as gemiddelde_Amerika, AVG(JP_Sales) as gemiddelde_Japan, AVG(EU_Sales) as gemiddelde_Europa FROM videogamesales WHERE platform="PS4" AND publisher="Sony Computer Entertainment"
